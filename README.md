@@ -1,5 +1,5 @@
 # **🤖 DocChat**
-**AI-powered Multi-Agent RAG system for intelligent document querying with fact verification**  
+✨ **AI-powered Multi-Agent RAG system for intelligent document querying with fact verification**  
 
 ---
 
@@ -42,7 +42,7 @@
 
 ## 🎯 Why Use DocChat Instead of ChatGPT or DeepSeek?
 
-| Feature | ChatGPT/DeepSeek | DocChat |
+| Feature | ChatGPT / DeepSeek | DocChat |
 |---------|-----------------|---------|
 | Retrieves from uploaded documents | ❌ | ✅ |
 | Handles multiple documents | ❌ | ✅ |
@@ -57,19 +57,19 @@
 
 ## 💻 System Requirements
 
-The installation process and app usage has been tested on **Windows 11** with **Anaconda3 2024.10 (Python 3.12.7 64-bit)** distribution. Slight modifications may be required on other systems and/or Python distributions.
+The installation process and app usage have been tested on **Windows 11** with **Anaconda3 2024.10 (Python 3.12.7 64-bit)** distribution. Slight modifications may be required on other systems and/or Python distributions.
 
 ## ⚙️ Installation Guide 
 
 ### 1️⃣ Clone the Repository
 ```
-git clone [REPO] doc-chat
+git clone https://github.com/coder907/doc-chat doc-chat
 cd doc-chat
 ```
 
 ### 2️⃣ Set Up and Activate Virtual Environment 
 ```
-conda create --name env4 python=3.12.7
+conda create --name doc-chat-env python=3.12.7
 conda activate doc-chat-env
 ```
 
@@ -92,7 +92,7 @@ DocChat will be accessible at `http://localhost:7860`.
 
 ## 🖥️ Usage Guide  
 
-1️⃣ **Upload** one or more documents or select or select one of the examples from the drop-down menu.
+1️⃣ **Upload** one or more documents or select one of the examples from the drop-down menu.
 
 2️⃣ **Enter a question** related to the document.  
 
@@ -108,7 +108,7 @@ DocChat will be accessible at `http://localhost:7860`.
 
 ### 🙏 Attribution
 
-This project is based on the following work: [https://github.com/HaileyTQuach/docchat-docling](https://github.com/HaileyTQuach/docchat-docling)
+This project is based on the following work: **[https://github.com/HaileyTQuach/docchat-docling](https://github.com/HaileyTQuach/docchat-docling)**
 
 This project is licensed under **[Non-Commercial License](LICENSE.md)**.
 
