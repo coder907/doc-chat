@@ -57,7 +57,7 @@
 
 ## 💻 System Requirements
 
-The installation process and app usage have been tested on **Windows 11** with **Anaconda3 2024.10 (Python 3.12.7 64-bit)** distribution. Slight modifications may be required on other systems and/or Python distributions.
+The installation process and app usage have been tested on **Windows 11** with **Anaconda3 2024.10 (Python 3.12.7 64-bit)** distribution. Slight modifications may be required to make it run on other systems and/or Python distributions.
 
 ## ⚙️ Installation Guide 
 
@@ -115,9 +115,9 @@ This project is licensed under **[Non-Commercial License](LICENSE.md)**.
 ### 🛠️ Modifications
 
 The following modifications have been made:
-* **Upgraded packages** to the latest versions.
+* **Upgraded packages** to the latest versions and **code refactored** accordingly.
 * Updated agents to use Google **Gemini 2.5 Flash** model.
-* Added two **example documents**.
+* **Added two example documents**.
 * A couple of **small user interface tweaks**, such as using TextAreas for results.
-* Updated **README.md**.
+* **Updated README.md**.
 
