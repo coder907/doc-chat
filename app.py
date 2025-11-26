@@ -137,60 +137,7 @@ def main():
             outputs=[answer_output, verification_output, session_state]
         )
 
-    css = """
-    .title {
-        font-size: 1.5em !important; 
-        text-align: center !important;
-        color: #FFD700; 
-    }
-
-    .subtitle {
-        font-size: 1em !important; 
-        text-align: center !important;
-        color: #FFD700; 
-    }
-
-    .text {
-        text-align: center;
-    }
-    """
-
-    js = """
-    function createGradioAnimation() {
-        var container = document.createElement('div');
-        container.id = 'gradio-animation';
-        container.style.fontSize = '2em';
-        container.style.fontWeight = 'bold';
-        container.style.textAlign = 'center';
-        container.style.marginBottom = '20px';
-        container.style.color = '#eba93f';
-
-        var text = 'Welcome to DocChat 🐥!';
-        for (var i = 0; i < text.length; i++) {
-            (function(i){
-                setTimeout(function(){
-                    var letter = document.createElement('span');
-                    letter.style.opacity = '0';
-                    letter.style.transition = 'opacity 0.1s';
-                    letter.innerText = text[i];
-
-                    container.appendChild(letter);
-
-                    setTimeout(function() {
-                        letter.style.opacity = '0.9';
-                    }, 50);
-                }, i * 250);
-            })(i);
-        }
-
-        var gradioContainer = document.querySelector('.gradio-container');
-        gradioContainer.insertBefore(container, gradioContainer.firstChild);
-
-        return 'Animation created';
-    }
-    """
-
-    demo.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Ocean(), css=css, js=js)
+    demo.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Ocean())
 
 def _get_file_hashes(uploaded_files: List) -> frozenset:
     """Generate SHA-256 hashes for uploaded files."""

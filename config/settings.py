@@ -3,7 +3,7 @@ from .constants import MAX_FILE_SIZE, MAX_TOTAL_SIZE, ALLOWED_TYPES
 
 class Settings(BaseSettings):
     # Required settings
-    GOOGLE_API_KEY: str
+    GOOGLE_API_KEY: str # Provide the API key in .env file
 
     # Optional settings with defaults
     MAX_FILE_SIZE: int = MAX_FILE_SIZE
